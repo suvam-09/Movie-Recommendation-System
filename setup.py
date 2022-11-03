@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 REPO_NAME = "Movie-Recommendation-System"
 AUTHOR_USER_NAME = "suvam-09"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ['streamlit']
+LIST_OF_REQUIREMENTS = ['streamlit', 'requests', 'pickleshare']
 
 
 setup(
