@@ -4,7 +4,7 @@ This is a streamlit web application that can recommend various kinds of similar 
 We are using the dataset from TMDB (https://www.themoviedb.org/about). The Movie Database (TMDB) is a community built movie and TV database. The platform consists of around 5000 movies and associated details. The dataset is available on Kaggle - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata.
 
 ## Sample Screenshot:
-<img src = "cover_image\screenshot.jpg">
+<img src = ".\cover_image\screenshot.jpg">
 
 ## Concept used to build the similarity_check.pkl file: cosine_similarity
 - Cosine Similarity is a metric that allows us to measure the similarity between two/multiple entities
