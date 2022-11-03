@@ -17,7 +17,7 @@ Content-based systems are the ones which use characteristic information and take
 #### (ii). Collaborative Filtering Based:
 Collaborative filtering systems are the ones which are based on user-item interactions. Herein, the alogrithm clusters the users based on their similarity scores & interests. Collaborative filtering systems are based on the assumption that if a user likes item A and another user likes the same item A as well as another item B then the first user could also be interested in the second item (i.e. item B). In this way the recommender system can considering recommending item B to the user A. For example, when we shop on Amazon it recommends new products saying “*Customer who brought this also brought*”. There are two types under collaborative-based recommendation systems:
 - **User-Based Collaborative Filtering**: Rating of the item is done using the rating of neighbouring users. It is based on the notion of users’ similarity.
-- **Item-Based Collaborative Filtering**: The rating of the item is predicted using the user’s own rating on neighbouring items. It is based on the notion of item similarity.
+- **Item-Based Collaborative Filtering**: Rating of the item is predicted using the user’s own rating on neighbouring items. It is based on the notion of item similarity.
 
 #### (iii) Hybrid Systems:
 Hybrid systems are the ones which combine both types of information with the aim of avoiding problems that are generated when working with just one kind.
