@@ -62,7 +62,7 @@ With regards to the final step of deploying our application over the Heroku serv
 - *.gitignore* - this file consists of the names of files and folders that we want to ignore from uploading over the server
 - *requirements.txt* -  this file consists of a list of libraries that are required for the project to run on the server
 
-### **Disclaimer:
+#### **Disclaimer:
 - The *similarity_check.pkl* file that houses the distance between movies (vectors) arranged in an array, has a file size greater than 100 MB. I have used the LFS Git Extension for versioning this large file. However, as Heroku doesn't suppost for LFS objects, the app deployment process failed multiple times during the initial stage. 
 > *So in that case, consider using config vars option available under Heroku server. Heroku lets us externalise configuration i.e., storing data such as encryption keys or external resource addresses in config vars, and later at runtime, these config vars are exposed as environment variables to the application. We need to create a key-value pair under the Heroku server and have it configured as environment variable to the application using a PAT (personal access token) generated inside our GitHub account. This will enable uploading the LFS objects on the server and the deployment will complete successfully.*
 
