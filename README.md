@@ -27,7 +27,7 @@ This is a streamlit web application that can recommend various kinds of similar 
 
 We are using the dataset from TMDB (https://www.themoviedb.org/about). The Movie Database (TMDB) is a community built movie and TV database. The platform consists of around 5000 movies and associated details. The dataset is available on Kaggle - https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata.
 
-[CLICK HERE](https://blink-movie-recommender.herokuapp.com/) TO RUN THE APPLICATION LIVE ON SERVER
+[CLICK HERE](https://blink-movie-recommender.herokuapp.com/) **(TO RUN THE APPLICATION LIVE ON SERVER)**
 
 ## Sample Screenshot:
 <img src = ".\cover_image\screenshot.jpg">
