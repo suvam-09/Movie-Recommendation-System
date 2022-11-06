@@ -23,7 +23,7 @@ Collaborative filtering systems are the ones which are based on user-item intera
 Hybrid systems are the ones which combine both types of information with the aim of avoiding problems that are generated when working with just one kind of these recommendation systems.
 
 ## Project Overview:
-The project emphasizes on a streamlit web application that can recommend various kinds of similar movies based on an users' interest. Users will be requested to type/select a movie based on their interest and the recommender system would help suggest back a list of movies similar to the one selected by the user. The project highlights a content-based recommendation system using machine learning wherein the recommender model is feeding back atmost atmost 6 recommended movies based on users' chocie. The final deployment of the web application has been implemented on Heroku.
+The project highlights a streamlit web application that can recommend various kinds of similar movies based on an users' interest. It is basically a content-based recommendation system using machine learning wherein the recommender model is feeding back atmost atmost 6 recommended movies based on users' chocie. Users will be requested to type/select a movie based on their interest and the recommender system would help suggest back a list of movies similar to the one selected by the user. The final deployment of the web application has been implemented on Heroku.
 
 We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movie Database (TMDB) is a community built movie and TV database. The platform consists of around 5000 movies and associated details. The dataset is available on [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
