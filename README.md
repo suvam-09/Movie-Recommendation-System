@@ -29,17 +29,17 @@ We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movi
 
 - Click [here](https://blink-movie-recommender.herokuapp.com/) to run the application live on server
 
-### Sample Screenshot:
+### - Sample Screenshot:
 <img src = ".\cover_image\screenshot.jpg">
 
-### cosine_similarity: Concept used for comparing similarity scores between movies
+### - cosine similarity: Concept used for comparing similarity scores between movies
 - Cosine Similarity is a metric that allows us to measure the similarity between two/multiple entities
 - In order to demonstrate cosine similarity function we need vectors arranged as a numpy array
 - Once we have vectors, we can call *cosine_similarity()* function by passing both vectors
 - This will calculate the cosine similarity between these two vectors
 - The value/similarity score ranges between [0,1] -- *if it is 0 then both vectors are completely different (i.e. no similarity) while if the value is 1, the vectors are strongly correlated with each other (i.e. completely similar)*
 
-### Sample understanding of how the model should work:
+### - Sample understanding of how the model should work:
 - Based on user's request a movie is provided as an input to the function
 - Now we need to fetch the index value for this movie and store it under a variable
 - Based on the index value, we then need to check for the similarity scores for this movie against other movies
@@ -55,7 +55,7 @@ We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movi
 
 So we need to ensure that the index position is not lost while sorting the distance values and for this we would be using the *enumerate()* functionality and transform it into a list.
 
-### Deploying the we application:
+### - Deploying the web application:
 With regards to the final step of deploying our application over Heroku, we need 4 files as stated below:
 - *procfile* - this file houses the command required for running our streamlit application over Heroku's server
 - *setup.sh* - this is a batch file consisting of OS related commands specific to the directory
