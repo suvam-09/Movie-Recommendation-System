@@ -56,7 +56,7 @@ We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movi
 So we need to ensure that the index position is not lost while sorting the distance values and for this we would be using the *enumerate()* functionality and transform it into a list.
 
 ### - Deploying the web application:
-With regards to the final step of deploying our application over Heroku, we need 4 files as stated below:
+We need 4 files as stated below with regards to the final step of deploying our application over Heroku:
 - *procfile* - this file houses the command required for running our streamlit application over Heroku's server
 - *setup.sh* - this is a batch file consisting of OS related commands specific to the directory
 - *.gitignore* - this file consists of the names of files and folders that we want to ignore from uploading over the server
