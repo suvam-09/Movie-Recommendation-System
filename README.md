@@ -29,17 +29,17 @@ We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movi
 
 ** **Click [here](https://blink-movie-recommender.herokuapp.com/) to run the application live on server**
 
-### Sample Screenshot:
+#### -> Sample Screenshot:
 <img src = ".\cover_image\screenshot.jpg">
 
-### (cosine similarity): Concept Used for Comparing Similarity Scores between Movies
+#### -> (cosine similarity): Concept Used for Comparing Similarity Scores between Movies
 - Cosine Similarity is a metric that allows us to measure the similarity between two/multiple entities
 - In order to demonstrate cosine similarity function we need vectors arranged as a numpy array
 - Once we have vectors, we can call *cosine_similarity()* function by passing both vectors
 - This will calculate the cosine similarity between these two vectors
 - The value/similarity score ranges between [0,1] -- *if it is 0 then both vectors are completely different (i.e. no similarity) while if the value is 1, the vectors are strongly correlated with each other (i.e. completely similar)*
 
-### Sample Understanding of How the Model Should Work:
+#### -> Sample Understanding of How the Model Should Work:
 - Based on user's request a movie is provided as an input to the function
 - Now we need to fetch the index value for this movie and store it under a variable
 - Based on the index value, we then need to check for the similarity scores for this movie against other movies
@@ -55,14 +55,14 @@ We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movi
 
 So we need to ensure that the index position is not lost while sorting the distance values and for this we would be using the *enumerate()* functionality and transform it into a list.
 
-### Deploying the Web Application:
+#### -> Deploying the Web Application:
 We need 4 files as stated below with regards to the final step of deploying our application over Heroku:
 - *procfile* - this file houses the command required for running our streamlit application over Heroku's server
 - *setup.sh* - this is a batch file consisting of OS related commands specific to the directory
 - *.gitignore* - this file consists of the names of files and folders that we want to ignore from uploading over the server
 - *requirements.txt* -  this file consists of a list of libraries that are required for the project to run on the server
 
-**Key Notes**:
+## Disclaimer:
 - The *similarity_check.pkl* file that houses the distance between movies (vectors) arranged in an array, has a file size greater than 100 MB. I have used the LFS Git Extension for versioning this large file. However, as Heroku doesn't support for LFS objects, the app deployment process failed multiple times during the initial stage. 
 > *So in that case, consider using config vars option available under Heroku server. Heroku lets us externalise configuration i.e., storing data such as encryption keys or external resource addresses in config vars, and later at runtime, these config vars are exposed as environment variables to the application. We need to create a key-value pair under the Heroku server and have it configured as environment variable to the application using a PAT (personal access token) generated inside our GitHub account. This will enable uploading the LFS objects on the server and the deployment will be executed successfully.*
 
