@@ -42,7 +42,7 @@ def add_bag_from_url(png_file):
     # unsafe_allow_html=False --> to ensure the HTML tags in the body are neither escaped not treated as mere text
 
 
-add_bag_from_url('./cover_image/image_3.jpg')
+add_bag_from_url('./cover_image/image_1.jpg')
 
 # ----------------------------------------------------------------------------------------------------------------------------
 # defining helper function to fetch posters for the recommended movies
