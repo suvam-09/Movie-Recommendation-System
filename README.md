@@ -27,7 +27,7 @@ The project highlights a streamlit web application that can recommend various ki
 
 We have used the dataset from [TMDB](https://www.themoviedb.org/about). The Movie Database (TMDB) is a community built movie and TV database. The platform consists of around 5000 movies and associated details. The dataset is available on [Kaggle](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
-** **Click [here](https://blink-movie-recommender.herokuapp.com/) to run the application live on server**
+** **Click [here](https://suvam-09-movie-recommendation-system-app-lbu1kg.streamlit.app/) to run the application live on server**
 
 #### -> Sample Screenshot:
 <img src = ".\cover_image\screenshot.jpg">
